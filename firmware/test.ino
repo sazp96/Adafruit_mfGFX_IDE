@@ -164,7 +164,6 @@ void setup() {
   file.close();
 
   //Load font "COMICS_8" from SD Card
-	//-Remove constant and values from fonts.cpp array comicSansMS_8ptBitmaps[]
 	//-Read values from file
 	//-Add entries to the array define on fonts.cpp--> uint8_t comicSansMS_8ptBitmaps[]
 

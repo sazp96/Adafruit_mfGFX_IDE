@@ -153,15 +153,11 @@ void setup() {
     display.println("Error creating file");
   }
 
-	display.setTextSize(1);
 	int i = 0;
 	int length = sizeof(originalCOMICS_8Bitmaps) / sizeof(uint8_t);
 	while (i < length) {
 		file.print(originalCOMICS_8Bitmaps[i]);
 		file.print(',');
-		display.print(originalCOMICS_8Bitmaps[i] + ',');
-		display.print(',');
-		//display.print(String(originalCOMICS_8Bitmaps[i]) + ",");
 		i++;
 	}
 
